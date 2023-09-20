@@ -1,0 +1,173 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: rgb(202, 248, 248);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    border: none;
+    padding: 0%;
+}
+
+li:hover{
+    padding: 2px;
+}
+
+li a:hover{
+    color: rgb(112, 146, 218);
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    gap: 25px;
+}
+
+.col{
+    display: flex;
+    gap: 25px;
+}
+
+.row{
+    display: flex;
+    gap: 25px;
+}
+
+img{
+    width: 10rem;
+    height: 13rem;
+}
+
+.ct1{
+    background-color: rgb(245, 248, 248);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.ct1:hover{
+    zoom: 1.2;
+    background-color: rgb(252, 248, 243);
+}
+button{
+    border: none;
+    border-radius: 4px;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+}
+
+button a:hover{
+    zoom: 1.2;
+}
+
+footer{
+    display: flex;
+    gap: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(59, 57, 57);
+    color: rgb(184, 179, 179);
+}
+
+.quickMenu{
+    display: block;
+}
+
+ol{
+    list-style: disc;
+    display: block;
+}
+
+ol a{
+    color: rgb(184, 179, 179);
+}
+
+a{
+    color: rgb(184, 179, 179);
+}
+
+@media (max-width: 1080px) {
+    body{
+        background-color: rgb(236, 243, 243);
+    }
+
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    ul{
+        gap: 3rem;
+    }
+
+    nav{
+      background-color: rgb(33, 133, 133);
+    }
+
+    footer{
+        width: fit-content;
+        font-size: smaller;
+        gap: 7px;
+    }
+}
+@media (max-width: 700px) {
+    body{
+        background-color: rgb(236, 243, 243);
+    }
+
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    ul{
+        gap: 1rem;
+    }
+
+    nav{
+      background-color: rgb(181, 224, 192);
+    }
+
+    footer{
+        width: fit-content;
+        font-size: smaller;
+        gap: 7px;
+    }
+}
